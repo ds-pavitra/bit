@@ -1671,9 +1671,11 @@ body.has-no-comments .comment-respond {
 }
 
 .service-3 {
-  background-image: url("../images/12.jpg");
-  background-size: cover;
+  /* background-image: url("../images/keybenefit_img.svg");
+  background-size: contain;
   background-position: center center;
+  background-repeat: no-repeat; */
+  background-color: #fff75e;
 }
 
 .service-4 {
@@ -1996,6 +1998,11 @@ body.has-no-comments .comment-respond {
 
 .processCard:nth-of-type(2) img{
   margin-left: 30px;
+}
+
+.processCard p{
+  width: 400px;
+  text-align: justify;
 }
 
 .work-process::before {
@@ -2322,3 +2329,108 @@ body.has-no-comments .comment-respond {
 }
 
 /* journey section ends  */
+
+.whoweserve_container .cust_positioning_banner {
+  width: 650px;
+}
+
+.whoweserve_container .h_banner_text {
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 66px;
+}
+.uiux_image_bnr img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* border-radius: 16px; */
+}
+/* --------------- who we serve -------  */
+
+/* .whoweserve_desk {
+  margin: 0 auto 70px auto;
+} */
+
+.whoweserve_container .cust_positioning_banner {
+  width: 650px;
+}
+
+.whoweserve_container .h_banner_text {
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 66px;
+}
+
+.whoweserve_container .section-heading {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.whoweserve_container .service-item {
+  width: 100%;
+  /* height: 691px; */
+  padding: 20px;
+  color: black;
+  margin-bottom: 150px;
+  align-items: unset;
+}
+
+.whoweserve_container .service-item h4 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 52px;
+}
+
+.whoweserve_container .service-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  margin: 0 50px 17px 0;
+}
+
+.whoweserve_container .service-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+  /* width: 587px; */
+  margin-bottom: 47px;
+}
+
+.whoweserve_container .service-content .custom_p {
+  font-size: 24px;
+  line-height: 44px;
+  margin-left: 28px;
+  margin-bottom: 20px;
+}
+
+.whoweserve_container .eclipse_icon {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+}
+
+.whoweserve_container .sub-image {
+  width: 235px;
+  height: 201px;
+  background-color: white;
+  margin: 0 19px 0 0;
+}
+
+.whoweserve_container .sub-image:last-child {
+  margin: 0;
+}
+
+.services-section {
+  width: 1175px;
+}
+
+.eclipse_icon img{
+  filter: grayscale(1);
+}
+/* whoerserve ends  */
