@@ -119,16 +119,19 @@
           });
     
           const mediaQuery = window.matchMedia(
-            "(min-width: 359px) and (max-width: 992px) "
+            "(min-width: 359px) and (max-width: 768px) "
           );
     
           function updateSwiperConfig() {
             if (mediaQuery.matches) {
               clients.params.slidesPerView = 4;
+              collection.params.slidesPerView = 1;
             } else {
               clients.params.slidesPerView = 6;
+              collection.params.slidesPerView = 6;
             }
             clients.update();
+            collection.update();
           }
           updateSwiperConfig();
           mediaQuery.addListener(updateSwiperConfig);
