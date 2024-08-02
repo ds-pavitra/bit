@@ -2550,6 +2550,10 @@ body.has-no-comments .comment-respond {
     font-size: 32px !important;
   }
 
+  .titleTextSolutions {
+    font-size: 25px !important;
+  }
+
   .mobPara {
     font-size: 18px !important;
     line-height: 24px !important;
@@ -2577,6 +2581,9 @@ body.has-no-comments .comment-respond {
     margin-top: 0px !important;
   }
 
+  .padTopRemove{
+    padding-top: 0 !important;
+  }
   .mobMarginImage {
     margin: 20px auto !important;
   }
@@ -2774,4 +2781,38 @@ body.has-no-comments .comment-respond {
     margin-bottom: 15px !important;
   }
 
+  .mobProcessPara {
+    margin-left: 55px;
+  }
+
+  .numbersPrefix {
+    width: 50px !important;
+    margin-left: 0px !important;
+    margin-right: 5px;
+  }
+
+  .mobMedia {
+    margin: 20px 0 !important;
+  }
+
+  .mobMedia h4 {
+    font-size: 18px !important;
+  }
+
+  .mobRemoveMarginB {
+    margin-bottom: 10px !important;
+  }
+
+  .mobServiceImg {
+    width: 270px !important;
+    margin: 0 auto 20px auto !important;
+  }
+
+  .sdBannerImg img {
+    width: auto;
+    margin-top: 0px;
+  }
+  .mobD_none{
+    display: none;
+  }
 }
