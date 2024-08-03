@@ -2821,3 +2821,297 @@ body.has-no-comments .comment-respond {
     display: none;
   }
 }
+
+
+@media (max-width: 992px) {
+  .howItWorks {
+    flex-direction: column !important;
+    justify-content: center;
+  }
+
+  .processCard p {
+    width: auto;
+    text-align: justify;
+  }
+
+  .cardBg {
+    padding: 30px;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .the-benefits {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .mobText {
+    font-size: 32px !important;
+  }
+
+  .titleTextSolutions {
+    font-size: 25px !important;
+  }
+
+  .mobPara {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    padding: 0 5% !important;
+  }
+
+  .mobHeadings {
+    font-size: 20px !important;
+    padding: 0 !important;
+  }
+
+  .collection-slide {
+    margin: 0 !important;
+  }
+
+  .media-body {
+    width: 240px;
+  }
+
+  .customWidth {
+    width: auto !important;
+  }
+
+  .marTopRemove {
+    margin-top: 0px !important;
+  }
+
+  .padTopRemove{
+    padding-top: 0 !important;
+  }
+  .mobMarginImage {
+    margin: 20px auto !important;
+  }
+
+  .tech-specs-row .tech-spec {
+    min-height: auto;
+  }
+
+  .main-count {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background: #000;
+    justify-content: space-evenly;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    padding: 10px 5px 5px 5px;
+  }
+
+  .counter {
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    color: #fff301;
+    float: left;
+    margin: 0 0 5px 0;
+    text-shadow: 1px 1px black;
+    justify-content: center;
+  }
+
+  .display-4 {
+    font-size: calc(0.475rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .main-count h5 {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .lead {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .bg-black {
+    background-color: #000 !important;
+    margin-bottom: 20px;
+  }
+
+  .wwa {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .stroke {
+    display: none;
+  }
+
+  .service-journey {
+    background-color: transparent;
+    width: 120px;
+    height: 120px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .service-journey2 {
+    background-color: transparent;
+    width: 130px;
+    height: 120px;
+  }
+
+  .service-journey3 {
+    background-color: transparent;
+    width: 131px;
+    height: 120px;
+  }
+
+  .service-journey4 {
+    background-color: transparent;
+    width: 120px;
+    height: 120px;
+  }
+
+  .content-journey {
+    flex: 1;
+    padding: 0 0 0 60px;
+  }
+
+  .content-journey2 {
+    flex: 1;
+    padding: 0 40px 0 0;
+  }
+
+  .content-journey3 {
+    flex: 1;
+    padding: 0 37px 0 0px;
+  }
+
+  .content-journey4 {
+    flex: 1;
+    padding: 0 0 0 70px;
+  }
+
+  .content-journey2 h1,
+  .content-journey h1,
+  .content-journey3 h1,
+  .content-journey4 h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .disc-journey {
+    font-size: 12px;
+    line-height: 18px;
+    width: auto;
+  }
+
+  .our_jorneys .services-section {
+    width: 352px;
+    height: 100%;
+  }
+
+  .journey-service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  .whoweare_stroke .service-item {
+    margin-bottom: 40px;
+  }
+
+  .journey-service3 {
+    margin-bottom: 40px;
+  }
+
+  .uiux_image_bnr {
+    display: none;
+  }
+
+  .whoweserve_container .h_banner_text {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .services-section {
+    width: auto;
+  }
+
+  .whoweserve_container .service-item h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+  }
+
+  .whoweserve_container .eclipse_icon {
+    width: 10px;
+    height: 10px;
+    padding-top: 0px;
+    position: relative;
+    top: -3px;
+  }
+
+  .whoweserve_container .service-content .custom_p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .whoweserve_container .service-image {
+    width: 132px;
+    margin: 0;
+  }
+
+  .mob_wws {
+    position: relative;
+    padding-top: 45px;
+  }
+
+  .mobServiceItem {
+    padding: 5px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .mobProcessPara {
+    margin-left: 55px;
+  }
+
+  .numbersPrefix {
+    width: 50px !important;
+    margin-left: 0px !important;
+    margin-right: 5px;
+  }
+
+  .mobMedia {
+    margin: 20px 0 !important;
+  }
+
+  .mobMedia h4 {
+    font-size: 18px !important;
+  }
+
+  .mobRemoveMarginB {
+    margin-bottom: 10px !important;
+  }
+
+  .mobServiceImg {
+    /* width: 270px !important; */
+    margin: 0 auto 20px auto !important;
+  }
+
+  .sdBannerImg img {
+    width: auto;
+    margin-top: 0px;
+  }
+  /* .mobD_none{
+    display: none;
+  } */
+}
