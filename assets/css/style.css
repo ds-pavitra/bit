@@ -2522,6 +2522,11 @@ body.has-no-comments .comment-respond {
   margin-top: -40px;
 }
 
+.cFontSize {
+  font-size: 18px;
+  line-height: 28px;
+}
+
 
 
 @media (max-width: 768px) {
